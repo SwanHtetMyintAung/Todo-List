@@ -91,8 +91,8 @@
             btnDoneAry.push(btnDone);
             
             //check after clicking the done button for added new one
-            for(let i=0;i < btnDoneAll.length;i++){
-                btnDoneAll[i].onclick = function (){
+            for(let i=0;i < btnDoneAry.length;i++){
+                btnDoneAry[i].onclick = function (){
                 let div = this.parentElement.parentElement;
                 div.classList.toggle('stroke');
                 div.classList.toggle('bg-secondary');
